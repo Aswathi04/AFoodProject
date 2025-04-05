@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif; /* Use a more modern font */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f8f8; /* Light background for a cleaner look */
+  color: #333; /* Darker, more readable text color */
+  line-height: 1.6; /* Improved line spacing for readability */
+}
+
+code {
+  font-family: 'Courier New', monospace;
+  background-color: #f0f0f0; /* Light background for code blocks */
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+.App {
+  text-align: center;
+  padding: 20px; /* Add some padding around the app content */
+}
+
+.App-logo {
+  height: 80px; /* Reduced logo size */
+  margin-bottom: 20px; /* Add some space below the logo */
+  animation: App-logo-spin infinite 20s linear;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #e0e0e0; /* Lighter header background */
+  min-height: 300px; /* Reduced header height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem; /* Use rem units for scalable font sizes */
+  color: #333; /* Darker header text */
+  border-radius: 8px; /* Rounded corners for a softer look */
+  margin: 20px auto; /* Center the header and add margin */
+  width: 80%; /* Limit header width for better readability */
+  max-width: 800px; /* set a max width */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.App-link {
+  color: #007bff; /* Use a more standard blue for links */
+  text-decoration: none; /* Remove underline by default */
+  transition: color 0.3s ease; /* Add a smooth color transition */
+}
+
+.App-link:hover {
+  color: #0056b3; /* Darker blue on hover */
+  text-decoration: underline; /* Add underline on hover */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Optional: Add some basic responsive styling */
+@media (max-width: 600px) {
+  .App-header {
+    width: 95%; /* Make header wider on smaller screens */
+  }
+}
